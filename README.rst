@@ -2,7 +2,7 @@
 Pangeo CMIP6 Examples
 =====================
 
-|CircleCI| |Binder|
+|Binder|
 
 Examples of analysis of CMIP6 data using xarray and dask.
 
@@ -13,6 +13,6 @@ See http://pangeo.io to learn more about the Pangeo project.
 
 .. _pangeo.binder.io: http://binder.pangeo.io/
 
-.. |Binder| image:: http://binder.pangeo.io/badge.svg
-    :target: http://binder.pangeo.io/v2/gh/pangeo-data/pangeo_ocean_examples/master
+.. |Binder| image:: https://binder.pangeo.io/badge_logo.svg
+ :target: https://binder.pangeo.io/v2/gh/pangeo-data/pangeo_cmip6_examples/master
 
