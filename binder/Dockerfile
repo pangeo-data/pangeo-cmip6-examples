@@ -1,5 +1,5 @@
 # Note that there must be a tag
-FROM pangeo/pangeo-ocean:2019.03.12
+FROM pangeo/pangeo-notebook:2019.07.01
 
 # https://mybinder.readthedocs.io/en/latest/tutorials/dockerfile.html#preparing-your-dockerfile
 ENV NB_USER jovyan
