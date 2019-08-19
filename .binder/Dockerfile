@@ -10,3 +10,5 @@ COPY . ${HOME}
 USER root
 RUN chown -R ${NB_UID} ${HOME}
 USER ${NB_USER}
+
+ENV DASK_CONFIG ${HOME}/.dask/config.yaml
