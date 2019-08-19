@@ -10,10 +10,12 @@ distributed:
       limit: 5s
 
 kubernetes:
-  worker-name: dask-{JUPYTERHUB_USER}-{uuid}
+  worker-name: dask-pangeo-cmip6-examples-{uuid}
   worker-template:
     metadata:
     spec:
+      nodeSelector:
+        dask-worker: True
       restartPolicy: Never
       containers:
       - args:
