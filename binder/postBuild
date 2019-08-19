@@ -1,0 +1,1 @@
+export DASK_CONFIG=$HOME/.dask/config.yaml
