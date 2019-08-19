@@ -1,1 +1,1 @@
-cp -r .config $HOME/.config
+export DASK_CONFIG=$HOME/.dask/config.yaml
