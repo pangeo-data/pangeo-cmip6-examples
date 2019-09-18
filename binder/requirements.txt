@@ -1,0 +1,2 @@
+xhistogram
+-e git+https://github.com/qzchenwl/qgrid.git#egg=qgrid
